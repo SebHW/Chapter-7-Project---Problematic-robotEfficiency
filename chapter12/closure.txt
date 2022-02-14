@@ -1,0 +1,5 @@
+When fun is called, it has uses its the scope it is given in order to create the local scope for the function when called. This makes it possible to
+access bindings in that scope from the function
+
+All special forms are passed the local scope in which they are evaluated so that they can evaluate their subforms in that scope.
+
